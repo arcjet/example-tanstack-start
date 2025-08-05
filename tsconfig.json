@@ -1,0 +1,23 @@
+// https://github.com/TanStack/router/blob/91e404b1e248a93889f8d731cf374a312d00af59/examples/react/start-basic/tsconfig.json
+{
+  "include": ["**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022",
+    "noEmit": true
+  }
+}
