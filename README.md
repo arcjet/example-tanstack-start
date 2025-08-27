@@ -73,7 +73,7 @@ server](https://arcjet.com/discord).
 
 ## Stack
 
-- TanStack Start: [TanStack Start](https://tanstack.com/start/latest)
+- TanStack Start: [Astro](https://tanstack.com/start/latest)
 - Security: [Arcjet](https://arcjet.com/)
 
 ## Contributing
