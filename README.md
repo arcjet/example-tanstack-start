@@ -73,7 +73,7 @@ server](https://arcjet.com/discord).
 
 ## Stack
 
-- Framework: [Tanstack Start](https://tanstack.com/start/latest)
+- Framework: [TanStack Start](https://tanstack.com/start/latest)
 - Security: [Arcjet](https://arcjet.com/)
 
 ## Contributing
