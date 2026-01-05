@@ -44,8 +44,8 @@ export const FormSchema = z.object({
 // TODO: Sensitive info detection is silently failing (likely due to not being able to read the request body)
 // TODO: There is a bug where when setResponseStatus(XXX); is called the response on the client doesn't match the expected type...
 
-export const sensitiveInfoServerFunction = createServerFn()
-  .validator((data) => {
+export const sensitiveInfoServerFunction = createServerFn({ method: "POST" })
+  .inputValidator((data) => {
     if (!(data instanceof FormData)) {
       throw new Error("Expected FormData");
     }

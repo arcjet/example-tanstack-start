@@ -56,8 +56,10 @@ export const FormSchema = z.object({
 
 // TODO: There is a bug where when setResponseStatus(XXX); is called the response on the client doesn't match the expected type...
 
-export const signupServerFunction = createServerFn()
-  .validator((data) => {
+export const signupServerFunction = createServerFn({
+  method: "POST",
+})
+  .inputValidator((data) => {
     if (!(data instanceof FormData)) {
       throw new Error("Expected FormData");
     }
