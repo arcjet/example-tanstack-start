@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@arcjet/node": "1.0.0-beta.15",
+    "@arcjet/node": "1.0.0-beta.16",
     "@fontsource-variable/figtree": "5.2.10",
     "@fontsource/ibm-plex-mono": "5.2.7",
     "@oddbird/css-anchor-positioning": "0.8.0",
@@ -16,7 +16,7 @@
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "4.7.0",
     "typescript": "5.9.3",
-    "vite": "7.2.4",
+    "vite": "7.2.6",
     "vite-tsconfig-paths": "5.1.4"
   },
   "name": "@arcjet-examples/tanstack-start",
