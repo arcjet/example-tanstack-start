@@ -41,7 +41,6 @@ export const FormSchema = z.object({
     }),
 });
 
-// TODO: Sensitive info detection is silently failing (likely due to not being able to read the request body)
 // TODO: There is a bug where when setResponseStatus(XXX); is called the response on the client doesn't match the expected type...
 
 export const sensitiveInfoServerFunction = createServerFn({ method: "POST" })
@@ -54,7 +53,10 @@ export const sensitiveInfoServerFunction = createServerFn({ method: "POST" })
   .handler(async (ctx) => {
     // The protect method returns a decision object that contains information
     // about the request.
-    const decision = await aj.protect(getArcjetRequest());
+    const decision = await aj.protect(getArcjetRequest(), {
+      // Pass the message to be evaluated for sensitive info (locally)
+      sensitiveInfoValue: ctx.data.supportMessage,
+    });
 
     console.log("Arcjet decision: ", decision);
 
