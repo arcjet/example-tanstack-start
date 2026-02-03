@@ -68,6 +68,7 @@ export const signupServerFunction = createServerFn({
   .handler(async (ctx) => {
     // The protect method returns a decision object that contains information
     // about the request.
+    // @ts-expect-error - https://github.com/arcjet/arcjet-js/issues/5772
     const decision = await aj.protect(getArcjetRequest(), {
       email: ctx.data.email,
     });
