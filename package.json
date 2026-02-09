@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@arcjet/node": "1.1.0-rc",
+    "@arcjet/node": "1.1.0",
     "@fontsource-variable/figtree": "5.2.10",
     "@fontsource/ibm-plex-mono": "5.2.7",
     "@oddbird/css-anchor-positioning": "0.8.0",
