@@ -1,18 +1,18 @@
 {
   "dependencies": {
     "@arcjet/node": "1.10.0",
-    "@fontsource-variable/figtree": "5.2.10",
-    "@fontsource/ibm-plex-mono": "5.2.7",
-    "@tanstack/react-router": "1.170.17",
-    "@tanstack/react-start": "1.168.27",
-    "react": "19.2.7",
-    "react-dom": "19.2.7",
+    "@fontsource-variable/figtree": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@tanstack/react-router": "1.170.29",
+    "@tanstack/react-start": "1.168.46",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "zod": "4.4.3"
   },
   "devDependencies": {
     "@types/node": "22.20.1",
-    "@types/react": "19.2.17",
-    "@types/react-dom": "19.2.3",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
     "@vitejs/plugin-react": "5.2.0",
     "typescript": "5.9.3",
     "vite": "7.3.6",
