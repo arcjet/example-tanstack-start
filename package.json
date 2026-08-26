@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@arcjet/node": "1.10.0",
+    "@arcjet/node": "1.11.0",
     "@fontsource-variable/figtree": "5.3.0",
     "@fontsource/ibm-plex-mono": "5.3.0",
     "@tanstack/react-router": "1.170.29",
