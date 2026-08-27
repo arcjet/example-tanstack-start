@@ -4,7 +4,7 @@ export function WhatNext() {
       <h2 className="heading-secondary">What next?</h2>
       <div className="list-actions">
         <a
-          href="https://app.arcjet.com"
+          href="https://console.arcjet.com"
           target="_blank"
           rel="noopener noreferrer"
           className="button-secondary"
