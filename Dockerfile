@@ -5,7 +5,7 @@ WORKDIR /app
 EXPOSE 4321
 
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 
 COPY . .
 RUN npm run build
